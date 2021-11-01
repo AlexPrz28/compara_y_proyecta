@@ -18,26 +18,26 @@ import { Link } from "react-router-dom";
 const NavigationBar = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar className="navbar" position="static">
+      <AppBar position="static" style = {{backgroundColor: 'black'}}>
         <Toolbar variant="dense">
           <IconButton></IconButton>
-          <Typography variant="h5" color="inherit" component="div">
+          <div style = {{color: 'white'}}>
             Proyecta y Compara
-          </Typography>
+          </div>
           <Tabs>
-            <Tab label="Tarjetas Bancarias" to="/" component={Link}>
-              <Typography variant="h6" color="inherit">
+            <Tab style = {{color: 'white'}} label="Tarjetas Bancarias" to="/" component={Link}>
+              <Typography variant="h6">
                 Tarjetas Bancarias{" "}
               </Typography>
             </Tab>
             <Tab label="Inversiones" to="/inversiones" component={Link}>
-              <Typography variant="h6" color="inherit">
+              <Typography variant="h6" color="">
                 Inversiones{" "}
               </Typography>
             </Tab>
 
             <Tab label="Criptomonedas" to="/criptomonedas" component={Link}>
-              <Typography variant="h6" color="inherit">
+              <Typography variant="h6" color="">
                 Criptomonedas{" "}
               </Typography>
             </Tab>

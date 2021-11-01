@@ -1,6 +1,6 @@
 function CardsScreen() {
   return (
-    <div className="coin-app">
+    <div style = {{backgroundColor: 'black'}}>
       <div className="coin-search">
         <h1 className="coin-text"> CARDS SCREEN</h1>
       </div>

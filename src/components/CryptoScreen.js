@@ -28,7 +28,7 @@ function CryptoScreen() {
   );
 
   return (
-    <div className="coin-app">
+    <div style = {{backgroundColor: 'black', marginTop:0}} className="coin-app">
       <div className="coin-search">
         <h1 className="coin-text"> Buscador de criptos</h1>
         <form>
